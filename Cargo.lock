@@ -378,6 +378,7 @@ dependencies = [
 [[package]]
 name = "tokio-vxi11"
 version = "0.1.0"
+source = "git+https://github.com/canxin121/tokio-vxi11#3043226509dfd14cc4ba45bdbeeb912fe8be7737"
 dependencies = [
  "bytes",
  "thiserror",

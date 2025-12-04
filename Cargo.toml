@@ -7,6 +7,6 @@ edition = "2024"
 anyhow = "1.0.100"
 clap = { version = "4.5.53", features = ["derive"] }
 tokio = { version = "1.48.0", features = ["rt-multi-thread", "macros"] }
-tokio-vxi11 = { path = "../tokio-vxi11" }
+tokio-vxi11 = { git = "https://github.com/canxin121/tokio-vxi11" }
 tracing = "0.1.43"
 tracing-subscriber = { version = "0.3.22", features = ["fmt"] }
